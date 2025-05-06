@@ -26,7 +26,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.py <br>
 <img width="443" alt="image" src="https://github.com/user-attachments/assets/42a2b79e-f148-4168-ae39-f475aad158f8" />
  <br>
 <설명> <br>
-- 몸무게 예측에 사용되는 dataset으로, 순서대로 성별, 키, 몸무게의 약 1000개의 데이터셋을 사용했다. <br> 
+-몸무게 예측에 사용되는 dataset으로, 순서대로 성별, 키, 몸무게의 약 1000개의 데이터셋을 사용했다. <br> 
 - 데이터 수집 자료 (weight-height.csv) <br>
 https://github.com/hsy2493/BodyAI/blob/main/streamlit/dataset/weight-height.csv <br>
 - 사용된 dataset 출처 (kaggle 사이트) <br>
@@ -40,24 +40,24 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html
 <img width="578" alt="image" src="https://github.com/user-attachments/assets/20b7e4a5-13d8-43e4-9e59-759bd6d52017" />
  <br>
 <설명> <br>
-- Gender(성별), Height(키), Weight(몸무게) 간의 상관관계 히트맵 <br>
-- 키와 몸무게 : 매우 강한 양의 상관 관계 (0.92)를 나타낸다. <br>
-- 성별 : 키와 몸무게 모두와 음의 상관 관계로, 이는 성별 인코딩 방식에 따라 남성이 여성보다 키가 크고 무겁다. <br>
+-Gender(성별), Height(키), Weight(몸무게) 간의 상관관계 히트맵 <br>
+-키와 몸무게 : 매우 강한 양의 상관 관계 (0.92)를 나타낸다. <br>
+-성별 : 키와 몸무게 모두와 음의 상관 관계로, 이는 성별 인코딩 방식에 따라 남성이 여성보다 키가 크고 무겁다. <br>
 
 <img width="762" alt="image" src="https://github.com/user-attachments/assets/4421f96b-c7da-42b5-af49-9424a488798a" />
  <br>
 <img width="679" alt="image" src="https://github.com/user-attachments/assets/da9f67d6-7f4d-4517-981a-1cfb7eb342f6" />
  <br>
 <설명> <br>
-- 변수 : 3개(성별, 키, 몸무게)<br>
-- 결측치 : 데이터 전처리로 결측치(0개)는 없다.<br>
+-변수 : 3개(성별, 키, 몸무게)<br>
+-결측치 : 데이터 전처리로 결측치(0개)는 없다.<br>
 
 <img width="765" alt="image" src="https://github.com/user-attachments/assets/7294c4eb-8f8c-46d4-b598-7b6f3870ed34" />
  <br>
 <img width="767" alt="image" src="https://github.com/user-attachments/assets/c92d2140-5e4c-4b3f-9ba0-962bb7b373a0" />
  <br>
 <설명> <br>
-- 주요 데이터로, 성별, 키, 몸무게 3개가 사용된다.<br>
+-주요 데이터로, 성별, 키, 몸무게 3개가 사용된다.<br>
 
 (3) 데이터 학습 및 모델정의 <br>
 - AI 모델 정의 및 학습 과정 (선형 회귀 모델) <br>
@@ -67,9 +67,9 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.ipynb <br>
 <img width="778" alt="image" src="https://github.com/user-attachments/assets/23e32972-241b-4f89-b61c-c1c82d406219" />
  <br>
 <설명> <br>
-- 모델 정의 : 선형 회귀 모델와 랜덤 포레스트 모델 정의 <br>
-- 모델 학습 : 훈련용 데이터로 모델 훈련 진행 <br>
-- 모델 예측 비교 (실제값 vs 예측값) : 선형 회귀 모델이 랜덤 포레스트 모델보다 더 적합함.<br>
+-모델 정의 : 선형 회귀 모델와 랜덤 포레스트 모델 정의 (모델 비교) <br>
+-모델 학습 : 훈련용 데이터로 모델 훈련 진행 <br>
+-모델 예측 비교 (실제값 vs 예측값) : 선형 회귀 모델이 랜덤 포레스트 모델보다 더 적합함.<br>
 
 
 <b>6. 성과 <br>
