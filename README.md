@@ -75,7 +75,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.ipynb <br>
 <설명> <br>
 -모델 정의 : 선형 회귀 모델와 랜덤 포레스트 모델 정의 (모델 비교) <br>
 -모델 학습 : 훈련용 데이터로 모델 훈련 진행 <br>
--모델 예측 비교 (실제값 vs 예측값) : 선형 회귀 모델이 랜덤 포레스트 모델보다 더 적합함.<br>
+-모델 예측 비교 (실제값 vs 예측값) : 선형 회귀 모델이 랜덤 포레스트 모델보다 더 적합하다.<br>
 
 
 <b><br>
