@@ -4,6 +4,8 @@
 3. 목적 : 건강에 관심 있는 고객이 온라인에서 BodyAI 사이트를 통하여 키와 성별 기반의 적정 몸무게 예측 결과를 제공받고, 이를 통해 고객 스스로 건강 관리를 효과적으로 수행함으로서 장기적인 건강 관리 비용을 절감하는 것을 주목적으로 진행된 적정몸무게 예측 AI 사이트 프로젝트 입니다.
 4. 주요 기능 : 키와 성별 기반으로 적정 몸무게 예측 
 * 몸무게 예측 AI 보고서 자료 <br>
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/036b1b36-9d26-418e-968f-fd38f96c0624" />
+<br>
 https://github.com/hsy2493/BodyAI/issues/1#issue-3042546787 <br>
 5. 작업 툴
 - 사용 언어 : python
