@@ -34,7 +34,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/dataset/weight-height.csv 
 https://www.kaggle.com/datasets/mustafaali96/weight-height <br> 
 
 (2) 데이터 분석 <br>
-- 데이터 분석 과정 <br>
+- 데이터 분석 과정 상세 코드 <br>
 https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.ipynb <br> 
 - 데이터 분석 자료 (EDA) <br>
 https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html <br>
@@ -44,6 +44,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html
 - Gender(성별), Height(키), Weight(몸무게) 간의 상관관계 히트맵 <br>
 - 키와 몸무게 : 매우 강한 양의 상관 관계 (0.92)를 나타낸다. <br>
 - 성별 : 키와 몸무게 모두와 음의 상관 관계로, 이는 성별 인코딩 방식에 따라 남성이 여성보다 키가 크고 무겁다. <br>
+
 <img width="762" alt="image" src="https://github.com/user-attachments/assets/4421f96b-c7da-42b5-af49-9424a488798a" />
  <br>
 <img width="679" alt="image" src="https://github.com/user-attachments/assets/da9f67d6-7f4d-4517-981a-1cfb7eb342f6" />
@@ -51,6 +52,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html
 <설명> <br>
 - 변수 : 3개(성별, 키, 몸무게)<br>
 - 결측치 : 데이터 전처리로 결측치(0개)는 없다.<br>
+
 <img width="765" alt="image" src="https://github.com/user-attachments/assets/7294c4eb-8f8c-46d4-b598-7b6f3870ed34" />
  <br>
 <img width="767" alt="image" src="https://github.com/user-attachments/assets/c92d2140-5e4c-4b3f-9ba0-962bb7b373a0" />
@@ -60,7 +62,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html
 
 (3) 데이터 학습 및 모델정의 <br>
 - AI 모델 정의 및 학습 과정 (선형 회귀 모델) <br>
-https://github.com/hsy2493/BodyAI/blob/main/heightvsweight.ipynb <br> 
+https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.ipynb <br> 
 <img width="777" alt="image" src="https://github.com/user-attachments/assets/67c16501-40e0-45b2-92bc-39c1c9843836" />
  <br>
 <img width="778" alt="image" src="https://github.com/user-attachments/assets/23e32972-241b-4f89-b61c-c1c82d406219" />
