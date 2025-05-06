@@ -6,7 +6,7 @@
 * 몸무게 예측 AI 보고서 자료 <br>
 https://github.com/hsy2493/BodyAI/issues/1#issue-3042546787 <br>
 5. 작업 툴
-- AI 기반 언어 : python
+- 사용 언어 : python
 - 머신러닝 모델 정의 : 선형 회귀 모델
 - UI : streamlit
 - 데이터 프로파일링 (EDA) : ydata_profiling 
