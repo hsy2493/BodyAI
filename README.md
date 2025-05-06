@@ -15,7 +15,7 @@ https://github.com/hsy2493/BodyAI/issues/1#issue-3042546787 <br>
 6. 결과물 : <br>
 
 ## <화면 구현(streamlit 기반)><br>
-(1) 키와 성별 기반 몸무게 예측 <br> 
+(1) 키와 성별 기반 적정몸무게 예측 <br> 
   <img width="674" alt="image" src="https://github.com/user-attachments/assets/9e1c5c4e-23ae-4ba6-b508-0ab6b2c6055b" />
  <br> 
 <설명> <br>
