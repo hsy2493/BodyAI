@@ -29,7 +29,7 @@ https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.py <br>
 - 몸무게 예측에 사용되는 dataset으로, 순서대로 성별, 키, 몸무게의 약 1000개의 데이터셋을 사용했다. <br> 
 - 데이터 수집 자료 (weight-height.csv) <br>
 https://github.com/hsy2493/BodyAI/blob/main/streamlit/dataset/weight-height.csv <br>
-- 데이터셋 출처 (kaggle 사이트) <br>
+- 사용된 dataset 출처 (kaggle 사이트) <br>
 https://www.kaggle.com/datasets/mustafaali96/weight-height <br> 
 
 (2) 데이터 분석 <br>
