@@ -11,50 +11,60 @@ https://github.com/hsy2493/BodyAI/issues/1#issue-3042546787 <br>
 - 머신러닝 모델 정의 : 선형 회귀 모델
 - UI : streamlit
 - 데이터 프로파일링 (EDA) : ydata_profiling 라이브러리 활용
+  
 6. 결과물 :
 ## <화면 구현(streamlit)>
 (1) 키와 성별 기반 몸무게 예측 <br> 
-  <img width="467" alt="image" src="https://github.com/user-attachments/assets/a51d6bf5-3c36-45e8-bc1f-d666f4c34ba4" /> <br> 
+  <img width="674" alt="image" src="https://github.com/user-attachments/assets/9e1c5c4e-23ae-4ba6-b508-0ab6b2c6055b" />
+ <br> 
 <설명> <br>
 - 키(cm) 입력과 성별 선택 후, 몸무게 예측하기 버튼 클릭 시, 적정 몸무게가 예측된다. <br>
-- 몸무게 예측 - 화면구현(streamlit) 상세 코드 <br>
-  https://github.com/hsy2493/BodyAI/blob/main/heightvsweight.py <br> 
+- 몸무게 예측 - 화면구현 (streamlit 기반) 상세 코드 <br>
+https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.py <br> 
 
 ## <기능 구현>
 (1) 데이터 수집 <br>
-<img width="472" alt="image" src="https://github.com/user-attachments/assets/cb251dc0-84fa-4d78-93de-a9fa5a337582" /> <br>
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/42a2b79e-f148-4168-ae39-f475aad158f8" />
+ <br>
 <설명> <br>
-- 몸무게 예측에 사용되는 dataset으로, 순서대로 성별, 키, 몸무게의 약 1000개의 데이터를 수집했다. <br> 
+- 몸무게 예측에 사용되는 dataset으로, 순서대로 성별, 키, 몸무게의 약 1000개의 데이터셋을 사용했다. <br> 
 - 데이터 수집 자료 (weight-height.csv) <br>
-https://github.com/hsy2493/BodyAI/blob/main/dataset/weight-height.csv <br>
-- 데이터셋 출처 (kaggle) <br>
+https://github.com/hsy2493/BodyAI/blob/main/streamlit/dataset/weight-height.csv <br>
+- 데이터셋 출처 (kaggle 사이트) <br>
 https://www.kaggle.com/datasets/mustafaali96/weight-height <br> 
 
 (2) 데이터 분석 <br>
 - 데이터 분석 과정 <br>
-https://github.com/hsy2493/BodyAI/blob/main/heightvsweight.ipynb <br> 
+https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.ipynb <br> 
 - 데이터 분석 자료 (EDA) <br>
-https://github.com/hsy2493/BodyAI/blob/main/report/heightvsweight.html <br>
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/e38e2f56-68ee-45bb-8ff9-35307891eb60" /> <br>
+https://github.com/hsy2493/BodyAI/blob/main/streamlit/report/heightvsweight.html <br>
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/20b7e4a5-13d8-43e4-9e59-759bd6d52017" />
+ <br>
 <설명> <br>
 - Gender(성별), Height(키), Weight(몸무게) 간의 상관관계 히트맵 <br>
 - 키와 몸무게 : 매우 강한 양의 상관 관계 (0.92)를 나타낸다. <br>
 - 성별 : 키와 몸무게 모두와 음의 상관 관계로, 이는 성별 인코딩 방식에 따라 남성이 여성보다 키가 크고 무겁다. <br>
-<img width="519" alt="image" src="https://github.com/user-attachments/assets/12727b6e-7621-43e7-835c-cf77cae32d2c" /> <br>
-<img width="467" alt="image" src="https://github.com/user-attachments/assets/83c94da4-ecc1-4779-aae5-18886be7c85a" /> <br>
+<img width="762" alt="image" src="https://github.com/user-attachments/assets/4421f96b-c7da-42b5-af49-9424a488798a" />
+ <br>
+<img width="679" alt="image" src="https://github.com/user-attachments/assets/da9f67d6-7f4d-4517-981a-1cfb7eb342f6" />
+ <br>
 <설명> <br>
 - 변수 : 3개(성별, 키, 몸무게)<br>
 - 결측치 : 데이터 전처리로 결측치(0개)는 없다.<br>
-<img width="529" alt="image" src="https://github.com/user-attachments/assets/6d81acb0-9378-4a31-bad0-350998c9b5d9" /> <br>
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/a5bbe5fc-5867-43dc-8956-b034e9805ef0" /> <br>
+<img width="765" alt="image" src="https://github.com/user-attachments/assets/7294c4eb-8f8c-46d4-b598-7b6f3870ed34" />
+ <br>
+<img width="767" alt="image" src="https://github.com/user-attachments/assets/c92d2140-5e4c-4b3f-9ba0-962bb7b373a0" />
+ <br>
 <설명> <br>
 - 주요 데이터로, 성별, 키, 몸무게 3개가 사용된다.<br>
 
 (3) 데이터 학습 및 모델정의 <br>
 - AI 모델 정의 및 학습 과정 (선형 회귀 모델) <br>
 https://github.com/hsy2493/BodyAI/blob/main/heightvsweight.ipynb <br> 
-<img width="780" alt="image" src="https://github.com/user-attachments/assets/6a37cf26-51a0-4ec7-a414-49e5cf913964" /> <br>
-<img width="768" alt="image" src="https://github.com/user-attachments/assets/5b664e92-e4be-4490-b668-4c09bc17e0b1" /> <br>
+<img width="777" alt="image" src="https://github.com/user-attachments/assets/67c16501-40e0-45b2-92bc-39c1c9843836" />
+ <br>
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/23e32972-241b-4f89-b61c-c1c82d406219" />
+ <br>
 <설명> <br>
 - 모델 정의 : 선형 회귀 모델와 랜덤 포레스트 모델 정의 <br>
 - 모델 학습 : 훈련용 데이터로 모델 훈련 진행 <br>
