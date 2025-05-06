@@ -19,7 +19,7 @@ https://github.com/hsy2493/BodyAI/issues/1#issue-3042546787 <br>
   <img width="674" alt="image" src="https://github.com/user-attachments/assets/9e1c5c4e-23ae-4ba6-b508-0ab6b2c6055b" />
  <br> 
 <설명> <br>
-- 키(cm) 입력과 성별 선택 후, 몸무게 예측하기 버튼 클릭 시, 적정 몸무게가 예측된다. <br>
+-키(cm) 입력과 성별 선택 후, 몸무게 예측하기 버튼 클릭 시, 적정 몸무게가 예측된다. <br>
 - 몸무게 예측 - 화면구현 (streamlit 기반) 상세 코드 <br>
 https://github.com/hsy2493/BodyAI/blob/main/streamlit/heightvsweight.py <br> 
 
